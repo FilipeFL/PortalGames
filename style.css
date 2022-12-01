@@ -1,0 +1,23 @@
+body
+{
+    background-color: black;
+    color: white;
+}
+
+.header-section
+{
+    display : flex;
+    justify-content : center;
+}
+
+.header-section .search
+{
+    align-content: center;
+    display: flex;
+}
+
+.navBar
+{
+    display : flex;
+    justify-content : space-around;
+}
