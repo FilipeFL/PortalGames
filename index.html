@@ -71,9 +71,10 @@
                     let navBar = `<div class="navBar">`
                     if(page > 1)
                     {
-                        navBar += `<button onclick="listGames(${page - 1})">Anterior</button></div>`
+                        navBar += `<button onclick="listGames(${page - 1})">Anterior</button>`
                     }
-                    navBar += `<button onclick="listGames(${page + 1})">Próxima</button></div>`
+                    navBar += `<button onclick="listGames(${page + 1})">Próxima</button>`
+                    navBar += `</div>`
                     gamesPlace.innerHTML += navBar
                 })
         }
